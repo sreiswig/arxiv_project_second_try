@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <title>arXiv Query: all:quantum</title>
+  <id>http://arxiv.org/api/jklmnopqrst</id>
+  <updated>2025-10-04T00:00:00Z</updated>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00001v1</id>
+    <updated>2021-01-01T00:00:00Z</updated>
+    <published>2021-01-01T00:00:00Z</published>
+    <title>Quantum Example Title</title>
+    <summary>This is a short abstract about quantum things.</summary>
+    <author>
+      <name>Alice Example</name>
+    </author>
+    <link href="http://arxiv.org/abs/2101.00001v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.00001v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
