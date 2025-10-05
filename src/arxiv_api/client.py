@@ -6,8 +6,6 @@ parse Atom.
 """
 from typing import List, Dict, Optional
 from xml.etree import ElementTree as ET
-import urllib.parse
-
 
 class ArxivClient:
     """Client for querying the arXiv API.
@@ -24,10 +22,6 @@ class ArxivClient:
     BASE_URL = "http://export.arxiv.org/api/query"
 
     def __init__(self, session: Optional[object] = None, base_url: Optional[str] = None):
-        # Accept a requests.Session-like object but avoid importing requests at
-        # module import time. requests will be imported lazily in methods that
-        # actually perform HTTP. If no session is provided, keep it None and
-        # create one lazily inside `search` when needed.
         self.session = session
         self.base_url = base_url or self.BASE_URL
 
